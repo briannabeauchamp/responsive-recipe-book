@@ -1,5 +1,18 @@
+html {
+  font-family: ff-more-web-pro, serif;
+}
+
+h1, h2 {
+  font-family: satisfy, sans-serif;
+}
+
+h3, h4, h5, h6 {
+  font-family: proxima-nova, sans-serif;
+}
+
+
 .polaroid {
-  margin: 0;
+  margin: 1em;
   padding: 10px;
   width: 400px;
 
@@ -7,6 +20,11 @@
   border-radius: 4px;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, .5);
   transition: all .3s linear;
+  text-align: center;
+}
+
+.polaroid > a {
+  text-decoration: none;
 }
 
 .polaroid > img {
@@ -20,4 +38,45 @@
   text-align: center;
   width: 100%;
   left: 0;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+.nav-btn > a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-btn > a:hover {
+  text-decoration: none;
+  color: #fff;
+  background-color: grey;
+  padding: .5em;
+}
+
+.current > a {
+  background-color: grey;
+  padding: .5em;
+}
+
+.banner {
+  text-align: center;
+}
+
+.banner-btn {
+  margin-bottom: 1em;
+}
+
+.header {
+  text-align: center;
 }
